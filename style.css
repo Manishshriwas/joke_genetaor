@@ -1,0 +1,101 @@
+
+
+.mainy{
+    background-image: url(m.jpg);
+   
+    background-size: cover;
+    
+    height: 100vh;
+}
+
+
+#main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+ h1{
+    color: rgb(28, 16, 1);
+    padding-left: 20px;
+}
+#content{
+    height: 50vh;
+    width:50vh ;
+    border: 3px solid rgb(10, 10, 9);
+    border-radius: 4px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aquamarine;
+    box-shadow: 5px 10px;
+}
+   
+
+
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    padding: 6px;
+
+}
+#but:hover{
+    border-radius: 3px;
+}
+#but button:hover{
+
+    background-color: goldenrod;
+    
+
+}
+.navbar{
+    background-color: rgb(121, 68, 68);
+    border-radius: 30px;
+    height: 2cm;
+
+   }
+   .navbar ul{              
+    overflow: auto;           /*use when use flow then word remove own backgraound color so we use overflow */
+   }
+   .navbar li{
+    float: left;
+    list-style: none;  /*use remove dot from list */
+    margin: 13px 20px;
+    
+    font-size: .5cm;
+   }
+   .navbar li a{
+    padding:3px 3px;
+  text-decoration: none; 
+  color: aliceblue;
+   }
+   .navbar li a:hover{
+    color:red;
+   }
+   .search{
+    float: right;
+    padding:13px 75px;
+    color: white;
+   
+   }
+   .navbar input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding:3px 17px;
+    width: 129px;
+   }
+   .enter{
+    float: right;
+    padding: 16px;
+
+    
+   }
+   .navbar button:hover{
+    background-color: brown;
+    color:goldenrod;
+   }
